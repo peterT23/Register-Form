@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Register Form</h2>
+      <form action="" class="form">
+        <div class="input-group">
+          <label for="username" class="label">User name</label>
+          <input
+            type="text"
+            id="username"
+            class="input"
+            placeholder="Your username"
+          />
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="email" class="label">Email</label>
+          <input
+            type="text"
+            id="email"
+            class="input"
+            placeholder="Your Email"
+          />
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="password" class="label">User name</label>
+          <input type="password" id="password" class="input" />
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+        <div class="input-group">
+          <label for="password-confirmation" class="label"
+            >Password Confirmation</label
+          >
+          <input type="password" id="password-confirmation" class="input" />
+          <span class="error-message"></span>
+          <span class="icon icon-success hidden">✅</span>
+          <span class="icon icon-error hidden">❌</span>
+        </div>
+      </form>
+      <button class="button">Create account</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
